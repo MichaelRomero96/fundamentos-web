@@ -1,0 +1,28 @@
+.contenedor {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    width: 500px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+   /*  shorthand */
+   margin: 20px 5px;
+}
+
+/* especificidad
+pseudo elementos
+pseudo clases */
+
+#identificador {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+span {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
